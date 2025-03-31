@@ -1,2 +1,23 @@
 bypass == in php 
+____________________________________________________________
+<?
+
+include "includes/secret.inc";
+
+    if(array_key_exists("submit", $_POST)) {
+        if($secret == $_POST['secret']) {
+        print "Access granted. The password for natas7 is <censored>";
+    } else {
+        print "Wrong secret";
+    }
+    }
+?>
+____________________________________________________________
+
 privato in tutti modi : true, [], ... ma non funzia 
+
+
+
+SCOPERTO : includes/secret.inc
+entrando c'e' la password 
+natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
