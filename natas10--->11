@@ -1,0 +1,11 @@
+.* /etc/natas_webpass/natas11 #
+
+
+Output:
+
+.htaccess:AuthType Basic
+.htaccess: AuthName "Authentication required"
+.htaccess: AuthUserFile /var/www/natas/natas10/.htpasswd
+.htaccess: require valid-user
+.htpasswd:natas10:$apr1$BJulC6vU$XnGaMp0g7Mt56BsyHiQ8l0
+/etc/natas_webpass/natas11:UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
